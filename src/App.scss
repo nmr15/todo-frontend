@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after
+{
+  box-sizing: border-box;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #FAFAFA;
+  font-family: "Roboto", sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg
+{
+  display: block;
+}
+
+ul
+{
+  list-style: none;
+}
+
+a
+{
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.mr-5
+{
+  margin-right: 0.313rem;
+}
+
+.text-muted
+{
+  
+  color: #bdc3c7;
+  font-style: italic;
+  font-size: 0.875rem;
+}
+
+.container
+{
+  width: 100%;
+  padding: 6.25rem 10% 0 10%;
+}
+
+.navbar
+{
+  padding: 0.75rem 1.125rem;
+  color: #fff;
+  background-color: #1b1b1b;
+}
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.75rem 1.125rem;
+  background-color: #1b1b1b;
+  color: #fff;
+
+  & a
+  {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.btn-left
+{
+  margin-right: 0.313rem;
+}
+
+.todo-list
+{
+  margin: 1.25rem auto 0 auto;
+
+}
+
+.card
+{
+  display: flex;
+  justify-content: space-between;
+  width: 43.75rem;
+  margin: 0.625rem auto;
+  padding: 1rem 1.25rem;
+  border: 1px solid #f2f3f4;
+  border-radius: .75rem;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .05);
+  background-color: #fff;
+}
+
+.form
+{
+  text-align: center;
+}
+
+input
+{
+  margin-right: 0.625rem;
+  padding: 0.50rem 0.75rem;
+  border: 1px solid #dbdfe9;
+  border-radius: .375rem;
+  background-color: #fcfcfc;
+
+  &:focus
+  {
+    outline: 1px solid #000;
+  }
+}
+
+.form-btn
+{
+  padding: 0.50rem 0.75rem;
+  border: 1px solid #dbdfe9;
+  border-radius: .375rem;
+  cursor: pointer;
+}
+
+// .modal
+// {
+//   position: fixed;
+//   z-index: 1;
+//   top: 30%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   width: 37.5rem;
+//   height: 12.5rem;
+
+//   overflow: auto;
+//   padding: 1.25rem;
+//   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, .05);
+//   background-color: #fff;
+// }

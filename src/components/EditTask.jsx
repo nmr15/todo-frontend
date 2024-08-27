@@ -26,7 +26,7 @@ const EditTask = ({id, isEditing, setIsEditing}) =>
     // console.log(typeof id);
     try
     {
-      let resp = await axios.put(`http://localhost:3002/editTodo/${id}`,
+      let resp = await axios.put(import.meta.env.VITE_BACKENDURL + `editTodo/${id}`,
         {
           title, category, status, date
         });

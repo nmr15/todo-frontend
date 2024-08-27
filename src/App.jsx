@@ -43,7 +43,7 @@ function App() {
   {
     try
     {
-      let resp = await axios.delete(`http://localhost:3002/deleteTodo/${id}`);
+      let resp = await axios.delete(import.meta.env.VITE_BACKENDURL + `deleteTodo/${id}`);
       let data = resp.data;
       console.log(data);
       location.reload();

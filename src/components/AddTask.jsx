@@ -26,7 +26,7 @@ const AddTask = () =>
 
     try
     {
-      let resp = await axios.post("http://localhost:3002/createtodo",
+      let resp = await axios.post(import.meta.env.VITE_BACKENDURL + "createtodo",
       {
         title, category, status, date
       });

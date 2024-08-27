@@ -22,6 +22,8 @@ body
 {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  max-height: 100vh;
+  overflow: scroll;
   background-color: #FAFAFA;
   font-family: "Roboto", sans-serif;
 }
@@ -62,11 +64,15 @@ a
 .container
 {
   width: 100%;
-  padding: 6.25rem 10% 0 10%;
+  padding: 6.25rem 10%;
 }
 
 .navbar
 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 0.75rem 1.125rem;
   color: #fff;
   background-color: #1b1b1b;
